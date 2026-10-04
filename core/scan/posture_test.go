@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/material-atomic/makit/core/sys"
+	"github.com/runsnip/makit/core/sys"
 )
 
 func ids(is []issue) map[string]string {

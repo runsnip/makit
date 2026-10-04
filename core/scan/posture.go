@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/material-atomic/makit/core/sys"
+	"github.com/runsnip/makit/core/sys"
 )
 
 // Posture checks read configuration only (files, /proc, and read-only commands such as `sshd -T`, `ufw status`,

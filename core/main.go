@@ -8,10 +8,10 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/material-atomic/makit/core/notify"
-	"github.com/material-atomic/makit/core/scan"
-	"github.com/material-atomic/makit/core/shield"
-	"github.com/material-atomic/makit/core/top"
+	"github.com/runsnip/makit/core/notify"
+	"github.com/runsnip/makit/core/scan"
+	"github.com/runsnip/makit/core/shield"
+	"github.com/runsnip/makit/core/top"
 )
 
 var version = "dev"

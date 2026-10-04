@@ -1,5 +1,5 @@
 # shellcheck shell=bash
-MAKIT_REPO=${MAKIT_REPO:-material-atomic/makit}
+MAKIT_REPO=${MAKIT_REPO:-runsnip/makit}
 
 latest_release() {
   curl -fsSL "https://api.github.com/repos/$MAKIT_REPO/releases/latest" | sed -n 's/.*"tag_name": *"\([^"]*\)".*/\1/p' | head -1

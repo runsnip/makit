@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/material-atomic/makit/core/sys"
-	"github.com/material-atomic/makit/core/term"
+	"github.com/runsnip/makit/core/sys"
+	"github.com/runsnip/makit/core/term"
 )
 
 var Version = "dev"

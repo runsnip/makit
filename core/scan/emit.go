@@ -35,7 +35,7 @@ func (s *scanner) emitRule(r *Rule, def Severity, f Finding, title string, ev ..
 }
 
 // DocBase is where documentation links point; the ref is the running version's tag (main for dev builds).
-var DocBase = "https://github.com/material-atomic/makit/blob/"
+var DocBase = "https://github.com/runsnip/makit/blob/"
 
 func docURL(path string) string {
 	if path == "" || strings.HasPrefix(path, "http") {

@@ -17,7 +17,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/material-atomic/makit/core/term"
+	"github.com/runsnip/makit/core/term"
 )
 
 // Log analysis: nginx (combined, or makit's format with the Cloudflare IP and host) and Caddy (JSON access logs),

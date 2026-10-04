@@ -172,7 +172,7 @@ spec:
               app.kubernetes.io/instance: makit
       containers:
         - name: shield
-          image: "ghcr.io/material-atomic/makit-shield:0.7.0"
+          image: "ghcr.io/runsnip/makit-shield:0.7.0"
           imagePullPolicy: IfNotPresent
           args: [shield, serve]
           env:

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/material-atomic/makit/core/sys"
+	"github.com/runsnip/makit/core/sys"
 )
 
 var dangerousCaps = map[string]bool{"ALL": true, "SYS_ADMIN": true, "SYS_PTRACE": true, "SYS_MODULE": true, "NET_ADMIN": true,

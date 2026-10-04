@@ -12,7 +12,7 @@ import (
 	"sort"
 	"syscall/js"
 
-	"github.com/material-atomic/makit/core/shield"
+	"github.com/runsnip/makit/core/shield"
 )
 
 //go:embed all:catalog

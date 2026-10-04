@@ -4,8 +4,8 @@
 #   scripts/llms-full.sh > /tmp/llms-full.txt
 set -euo pipefail
 cd "$(dirname "$0")/.."
-raw=https://raw.githubusercontent.com/material-atomic/makit/main
-blob=https://github.com/material-atomic/makit/blob/main
+raw=https://raw.githubusercontent.com/runsnip/makit/main
+blob=https://github.com/runsnip/makit/blob/main
 guides=(shield kubernetes bots notifications malware persistence dependencies scheduled-scans incident-response ssh firewall
   docker-ports egress containers updates kernel mounts fail2ban apparmor secrets logging accounts backups)
 
@@ -31,7 +31,7 @@ cat <<HEAD
 > request shield that also handles bots and AI agents (makit shield), sends alerts (makit notify), sets up and hardens
 > new servers (makit init) and shows a terminal dashboard (makit top).
 
-This file joins the README and every guide of the repository (https://github.com/material-atomic/makit), version
+This file joins the README and every guide of the repository (https://github.com/runsnip/makit), version
 $(cat VERSION), generated $(date -u +%Y-%m-%d). Install: \`curl -fsSL https://makit.sh/install.sh | sh\` (as root).
 Website: https://makit.sh · Index: https://makit.sh/llms.txt
 

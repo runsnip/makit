@@ -12,12 +12,12 @@ visitor → AWS ALB / NLB → gateway pods ──ask /check──→ makit-shiel
 ## Install
 
 ```bash
-helm install shield oci://ghcr.io/material-atomic/charts/makit-shield -n makit --create-namespace
+helm install shield oci://ghcr.io/runsnip/charts/makit-shield -n makit --create-namespace
 # or from a checkout:   helm install shield deploy/helm/makit-shield -n makit --create-namespace
 # or without Helm:      deploy/kubernetes/makit-shield.yaml (see its first lines)
 ```
 
-The chart runs two replicas of `ghcr.io/material-atomic/makit-shield` (20 MB, distroless, non-root, read-only root
+The chart runs two replicas of `ghcr.io/runsnip/makit-shield` (20 MB, distroless, non-root, read-only root
 filesystem, no capabilities), a Service for `/check` and `/metrics`, a headless Service the replicas find each other
 through, a shared secret for them (generated once and kept), a PodDisruptionBudget and a NetworkPolicy that lets only
 makit pods reach the cluster port. `shield.yaml` is `config:` in the values; it starts in `observe` mode.
@@ -25,10 +25,10 @@ makit pods reach the cluster port. `shield.yaml` is `config:` in the values; it 
 Verify the image before you run it — every release is signed in GitHub Actions, without a long-lived key:
 
 ```bash
-cosign verify ghcr.io/material-atomic/makit-shield:0.7.0 \
-  --certificate-identity-regexp '^https://github.com/material-atomic/makit/.github/workflows/image.yml@refs/tags/v' \
+cosign verify ghcr.io/runsnip/makit-shield:0.7.0 \
+  --certificate-identity-regexp '^https://github.com/runsnip/makit/.github/workflows/image.yml@refs/tags/v' \
   --certificate-oidc-issuer https://token.actions.githubusercontent.com
-docker buildx imagetools inspect ghcr.io/material-atomic/makit-shield:0.7.0 --format '{{ json .SBOM }}'   # the SBOM
+docker buildx imagetools inspect ghcr.io/runsnip/makit-shield:0.7.0 --format '{{ json .SBOM }}'   # the SBOM
 ```
 
 ## Make the gateway ask

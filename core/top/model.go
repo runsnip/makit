@@ -10,7 +10,7 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/material-atomic/makit/core/sys"
+	"github.com/runsnip/makit/core/sys"
 )
 
 type tab int

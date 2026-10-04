@@ -6,4 +6,4 @@
 #   4. directories given with `makit scan --rules DIR`
 schema: 1            # bump only on breaking format changes; makit refuses catalogs with a newer schema
 name: makit
-source: https://github.com/material-atomic/makit/tree/main/security
+source: https://github.com/runsnip/makit/tree/main/security

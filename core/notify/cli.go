@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/material-atomic/makit/core/term"
+	"github.com/runsnip/makit/core/term"
 )
 
 const usage = `makit notify — alerts to Telegram, Slack, Google Chat, Discord, Microsoft Teams, ntfy, webhooks and email

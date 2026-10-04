@@ -1,4 +1,4 @@
-module github.com/material-atomic/makit/core
+module github.com/runsnip/makit/core
 
 go 1.26.0
 

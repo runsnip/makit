@@ -9,7 +9,7 @@
 # Needs docker, kind, kubectl and helm. KEEP=1 keeps the cluster afterwards.
 set -uo pipefail  # every check runs; the end says what failed
 cd "$(dirname "$0")/.."
-name=makit-e2e ns=makit image=ghcr.io/material-atomic/makit-shield:e2e
+name=makit-e2e ns=makit image=ghcr.io/runsnip/makit-shield:e2e
 fail=0
 check() { # check DESCRIPTION EXPECTED ACTUAL
   if [[ $2 == "$3" ]]; then echo "  ✓ $1"; else echo "  ✗ $1: got $3, want $2"; fail=1; fi

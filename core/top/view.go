@@ -8,7 +8,7 @@ import (
 	"github.com/charmbracelet/lipgloss"
 	"github.com/charmbracelet/x/ansi"
 
-	"github.com/material-atomic/makit/core/sys"
+	"github.com/runsnip/makit/core/sys"
 )
 
 type column struct {

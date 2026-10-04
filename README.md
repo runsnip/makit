@@ -1,6 +1,6 @@
 # makit
 
-[![ci](https://github.com/material-atomic/makit/actions/workflows/ci.yml/badge.svg)](https://github.com/material-atomic/makit/actions/workflows/ci.yml)
+[![ci](https://github.com/runsnip/makit/actions/workflows/ci.yml/badge.svg)](https://github.com/runsnip/makit/actions/workflows/ci.yml)
 
 Security for Linux servers you run yourself — find what is wrong, block what attacks, and set up new servers safely.
 One command-line tool (`makit`), MIT-licensed, for Ubuntu and Debian.
@@ -182,7 +182,7 @@ AWS WAF so the load balancer drops that traffic first, `/metrics` feeds Promethe
 analysed with the same policy. Guide: [docs/security/kubernetes.md](docs/security/kubernetes.md).
 
 ```bash
-helm install shield oci://ghcr.io/material-atomic/charts/makit-shield -n makit --create-namespace
+helm install shield oci://ghcr.io/runsnip/charts/makit-shield -n makit --create-namespace
 makit shield snippet envoy-gateway --service shield-makit-shield --namespace makit --gateway eg
 ```
 
@@ -227,7 +227,7 @@ source and the `makit-core` binary against the release's `SHA256SUMS` before ins
 take the release's installer straight from GitHub (pinned to a tag, never `main`):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/material-atomic/makit/v0.7.0/install.sh -o install.sh
+curl -fsSL https://raw.githubusercontent.com/runsnip/makit/v0.7.0/install.sh -o install.sh
 less install.sh
 bash install.sh
 ```

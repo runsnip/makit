@@ -5,8 +5,8 @@ type: application
 version: 0.7.0
 appVersion: "0.7.0"
 home: https://makit.sh
-sources: [https://github.com/material-atomic/makit]
+sources: [https://github.com/runsnip/makit]
 keywords: [security, waf, bot-management, rate-limiting, ext-authz, gateway-api]
-icon: https://raw.githubusercontent.com/material-atomic/makit/main/brand/logo-mark.svg
+icon: https://raw.githubusercontent.com/runsnip/makit/main/brand/logo-mark.svg
 annotations:
   licenses: MIT

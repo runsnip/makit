@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/material-atomic/makit/core/sys"
+	"github.com/runsnip/makit/core/sys"
 )
 
 // containerTargets resolves names/ids to filesystems readable from the host (/proc/<pid>/root) — no docker exec.

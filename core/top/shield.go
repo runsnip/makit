@@ -12,8 +12,8 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/x/ansi"
 
-	"github.com/material-atomic/makit/core/shield"
-	"github.com/material-atomic/makit/core/sys"
+	"github.com/runsnip/makit/core/shield"
+	"github.com/runsnip/makit/core/sys"
 )
 
 // The Shield tab: the gate's two switches (ask: Caddy/nginx ask makit · edge: makit checks and blocks in front),

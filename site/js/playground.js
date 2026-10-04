@@ -5,7 +5,7 @@
 // The WebAssembly is built by scripts/playground.sh and published on the repository's "playground" branch.
 const WASM_BASE = /^(localhost|127\.)/.test(location.hostname)
   ? 'playground/'
-  : 'https://cdn.jsdelivr.net/gh/material-atomic/makit@playground/';
+  : 'https://cdn.jsdelivr.net/gh/runsnip/makit@playground/';
 
 const $ = (s, r = document) => r.querySelector(s);
 const el = (tag, attrs = {}, ...kids) => {

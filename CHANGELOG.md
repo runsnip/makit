@@ -91,7 +91,7 @@ and the gate's log say so).
   `/check/<path>` and ingress-nginx's `X-Original-URL`. `/status` and `/metrics` answer only private callers, like
   `/check`.
 - makit in Kubernetes: the `makit-shield` image (20 MB, distroless, non-root, read-only root filesystem; amd64 and
-  arm64; signed keyless with cosign, SBOM and provenance attached; chart pushed to `oci://ghcr.io/material-atomic/charts`),
+  arm64; signed keyless with cosign, SBOM and provenance attached; chart pushed to `oci://ghcr.io/runsnip/charts`),
   the Helm chart `deploy/helm/makit-shield` (2+ replicas sharing one shield, cluster secret generated once and kept,
   headless Service for peers, PodDisruptionBudget, NetworkPolicy on the cluster port, optional ServiceMonitor,
   `/readyz` and `/healthz` probes) and plain manifests `deploy/kubernetes/makit-shield.yaml`. `shield.yaml` comes from a

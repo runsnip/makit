@@ -2,7 +2,7 @@
 
 Where makit is going next. There are no dates: a version ships when it is done and tested. Plans change with what
 people need, so if something here matters to you — or is missing — say so in an
-[issue](https://github.com/material-atomic/makit/issues) or write to hello@makit.sh.
+[issue](https://github.com/runsnip/makit/issues) or write to hello@makit.sh.
 
 ## Next — v0.8: more edges, and what runs in the cluster
 
@@ -45,4 +45,4 @@ more edges and looks inside what runs there.
   `makit shield config check --replay`, and the config playground on makit.sh.
 - **v0.5.0** — the request shield (own IP set, rules, scoring, bots and AI agents, sites, batch reports, log
   analysis), notifications, the Shield tab in `makit top`, reproducible benchmarks.
-  See the [changelog](https://github.com/material-atomic/makit/blob/main/CHANGELOG.md) for every release.
+  See the [changelog](https://github.com/runsnip/makit/blob/main/CHANGELOG.md) for every release.

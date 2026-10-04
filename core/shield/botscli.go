@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/material-atomic/makit/core/term"
+	"github.com/runsnip/makit/core/term"
 	"gopkg.in/yaml.v3"
 )
 

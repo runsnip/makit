@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/material-atomic/makit/core/notify"
-	"github.com/material-atomic/makit/core/term"
+	"github.com/runsnip/makit/core/notify"
+	"github.com/runsnip/makit/core/term"
 )
 
 // errInvalidConfig makes `makit shield config check` exit 1 after it has printed its findings.

@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: ghcr.io/material-atomic/makit-shield
+  repository: ghcr.io/runsnip/makit-shield
   tag: ""                # default: the chart's appVersion
   pullPolicy: IfNotPresent
 

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/material-atomic/makit/core/term"
+	"github.com/runsnip/makit/core/term"
 )
 
 // cmdWAF: makit shield waf sync [--dry-run] — the same sync the gate runs, from the state on disk.

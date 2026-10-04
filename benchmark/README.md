@@ -4,7 +4,7 @@ makit shield sits in front of every request, so what it costs must be measured, 
 directory is how: one command, Docker as the only requirement, a report you can compare with ours.
 
 ```bash
-git clone https://github.com/material-atomic/makit && cd makit
+git clone https://github.com/runsnip/makit && cd makit
 benchmark/run.sh               # micro + http, about 4 minutes
 benchmark/run.sh micro         # only the Go benchmarks
 benchmark/run.sh http -c 64 -d 30s --list 5000000

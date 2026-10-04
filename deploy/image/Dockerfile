@@ -17,7 +17,7 @@ FROM gcr.io/distroless/static-debian12:nonroot
 ARG VERSION=dev
 LABEL org.opencontainers.image.title="makit-shield" \
       org.opencontainers.image.description="makit request shield: decides on every request behind your load balancer or gateway" \
-      org.opencontainers.image.source="https://github.com/material-atomic/makit" \
+      org.opencontainers.image.source="https://github.com/runsnip/makit" \
       org.opencontainers.image.licenses="MIT" \
       org.opencontainers.image.version="$VERSION"
 COPY --from=build /out/makit-core /usr/local/bin/makit-core

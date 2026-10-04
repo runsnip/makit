@@ -20,7 +20,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/material-atomic/makit/core/notify"
+	"github.com/runsnip/makit/core/notify"
 )
 
 // Version is shown in /status.

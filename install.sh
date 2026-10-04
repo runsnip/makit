@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Installs makit on a server:
-#   curl -fsSL https://raw.githubusercontent.com/material-atomic/makit/v0.7.0/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/runsnip/makit/v0.7.0/install.sh | bash
 # Env: MAKIT_VERSION (tag to install, default below), MAKIT_SHA256 (checksum of the source tarball; by default it is
 # read from the release's SHA256SUMS, which also covers the makit-core binaries). MAKIT_FROM=DIR installs the same
 # files from a directory instead of GitHub (SHA256SUMS, makit-<version>.tar.gz, makit-core-linux-<arch>) — a build
@@ -9,7 +9,7 @@
 set -euo pipefail
 
 MAKIT_VERSION=${MAKIT_VERSION:-v0.7.0}
-MAKIT_REPO=${MAKIT_REPO:-material-atomic/makit}
+MAKIT_REPO=${MAKIT_REPO:-runsnip/makit}
 PREFIX=/opt/makit
 
 [[ $EUID -eq 0 ]] || { echo "Run as root (sudo -i, or ssh root@host)." >&2; exit 1; }

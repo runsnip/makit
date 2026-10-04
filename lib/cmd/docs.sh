@@ -10,7 +10,7 @@ cmd_docs() {
       [[ $(basename "$f") == README.md ]] && continue
       printf '  %s%-20s%s %s\n' "$C_C" "$(basename "$f" .md)" "$C_0" "$(sed -n 's/^# //p' "$f" | head -1)"
     done
-    printf '\n%sOnline:%s https://github.com/material-atomic/makit/tree/v%s/%s\n' "$C_D" "$C_0" "$MAKIT_VERSION" "$DOCS_DIR"
+    printf '\n%sOnline:%s https://github.com/runsnip/makit/tree/v%s/%s\n' "$C_D" "$C_0" "$MAKIT_VERSION" "$DOCS_DIR"
     return
   fi
   if [[ $topic == MK-* ]]; then # rule id → its page

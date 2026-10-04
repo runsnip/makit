@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/material-atomic/makit/core/term"
+	"github.com/runsnip/makit/core/term"
 )
 
 const usage = `makit shield — IP gate for web traffic (own IP set + allowlist, Cloudflare-aware)

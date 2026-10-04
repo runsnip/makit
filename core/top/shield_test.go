@@ -6,7 +6,7 @@ import (
 
 	"github.com/charmbracelet/x/ansi"
 
-	"github.com/material-atomic/makit/core/shield"
+	"github.com/runsnip/makit/core/shield"
 )
 
 // The Shield tab renders both switches, counters, the buttons with their click regions and the lists.
