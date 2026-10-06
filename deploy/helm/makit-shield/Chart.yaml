@@ -9,4 +9,4 @@ sources: [https://github.com/runsnip/makit]
 keywords: [security, waf, bot-management, rate-limiting, ext-authz, gateway-api]
 icon: https://raw.githubusercontent.com/runsnip/makit/main/brand/logo-mark.svg
 annotations:
-  licenses: MIT
+  licenses: Apache-2.0

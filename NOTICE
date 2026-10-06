@@ -1,0 +1,7 @@
+makit
+Copyright 2026 RunSnip
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party components keep their own licences: the Go modules makit-core is built from (see core/go.mod) and the
+data in security/ that names its source (IP ranges and advisories published by their operators).

@@ -26,7 +26,7 @@ absolutize() {
 cat <<HEAD
 # makit — full documentation
 
-> makit is an open-source (MIT) command-line tool for the security of Linux servers you run yourself (Ubuntu and
+> makit is an open-source (Apache-2.0) command-line tool for the security of Linux servers you run yourself (Ubuntu and
 > Debian): it checks the host and its Docker containers (makit scan), blocks attacks before they reach the app with a
 > request shield that also handles bots and AI agents (makit shield), sends alerts (makit notify), sets up and hardens
 > new servers (makit init) and shows a terminal dashboard (makit top).

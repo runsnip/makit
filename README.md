@@ -3,7 +3,7 @@
 [![ci](https://github.com/runsnip/makit/actions/workflows/ci.yml/badge.svg)](https://github.com/runsnip/makit/actions/workflows/ci.yml)
 
 Security for Linux servers you run yourself — find what is wrong, block what attacks, and set up new servers safely.
-One command-line tool (`makit`), MIT-licensed, for Ubuntu and Debian.
+One command-line tool (`makit`), Apache-2.0-licensed, for Ubuntu and Debian.
 
 | | What makit does |
 | --- | --- |
@@ -241,7 +241,7 @@ Ubuntu 20.04+ or Debian 11+ (or derivatives), amd64 or arm64, run as root.
 
 ## License
 
-MIT — free for any use.
+Apache License 2.0 — free for any use, with a patent grant; see `LICENSE` and `NOTICE`.
 
 ## Development
 

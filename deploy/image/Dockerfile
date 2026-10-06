@@ -18,7 +18,7 @@ ARG VERSION=dev
 LABEL org.opencontainers.image.title="makit-shield" \
       org.opencontainers.image.description="makit request shield: decides on every request behind your load balancer or gateway" \
       org.opencontainers.image.source="https://github.com/runsnip/makit" \
-      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.licenses="Apache-2.0" \
       org.opencontainers.image.version="$VERSION"
 COPY --from=build /out/makit-core /usr/local/bin/makit-core
 COPY security/ /usr/share/makit/security/
